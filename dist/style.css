@@ -294,9 +294,7 @@ nav {
 
 .footer .leadFooter {
   background: #2a2826;
-  font-size: 1rem;
-  padding-bottom: 5px;
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 0.5rem;
 }
 
 strong {
