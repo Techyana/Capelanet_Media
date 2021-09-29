@@ -1,15 +1,17 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Yomogi&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Lato&family=Manrope&family=Open+Sans&family=Roboto&family=Shadows+Into+Light&family=Yomogi&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Neucha&display=swap');
 
 * {
+    font-family: 'Neucha', cursive;
     margin: 0px;
     padding: 0px;
-    box-sizing: border-box;
-    list-style: none;
     outline: none;
+    box-sizing: border-box;
+    list-style-type: none;
     text-decoration: none;
-    font-family: 'Shadows Into Light', cursive;
+    overflow-x: hidden;
 }
 
 html {
@@ -32,8 +34,12 @@ html {
 }
 
 .header .slogan {
-    margin-top: -25px;
+    margin-top: -5px;
     color: rgb(121, 118, 118);
+}
+
+.coastal-connect {
+    max-width: 100%;
 }
 
 .coastal-connect .song{
@@ -55,15 +61,30 @@ html {
     width: 100%;
 }
 
+.d-btn {
+    border: .0rem solid rgb(124, 121, 119);
+    padding: .6rem 2rem;
+    margin: 1rem 0rem;
+    background: rgb(100, 153, 233);
+    border-radius: 3rem;
+    font-size: 1.5rem;
+    color: black;
+}
+
 .coastal-connect .single-cover {
     border-radius: 0px;
     max-width: 100%;
     box-shadow: none;
 }
 
+.player {
+    max-width: 100%;
+    height: 100%;
+}
+
 audio {
     width: 100%;
-    height: 54px;
+    height: 74px;
     border-radius: 0%;
 }
 
